@@ -1,0 +1,14 @@
+.next
+node_modules
+out
+build
+coverage
+
+*.log
+*.err.log
+dev-server*.log
+next-dev*.log
+
+.env*
+*.tsbuildinfo
+assets

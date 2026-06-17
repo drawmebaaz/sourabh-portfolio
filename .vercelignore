@@ -11,4 +11,4 @@ next-dev*.log
 
 .env*
 *.tsbuildinfo
-assets
+/assets

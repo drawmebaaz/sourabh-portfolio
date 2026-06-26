@@ -108,19 +108,19 @@ export const projects: Project[] = [
     blogSlug: "how-i-built-algoradar",
     screenshots: [
       {
-        src: "/assets/projects/algoradar/combined-profile.png",
+        src: "/assets/projects/algoradar/combined-analysis.png",
         alt: "AlgoRadar combined competitive programming profile dashboard",
-        title: "Combined profile dashboard",
+        title: "Combined analysis dashboard",
       },
       {
-        src: "/assets/projects/algoradar/practice-queues.png",
+        src: "/assets/projects/algoradar/recommendations-overview.png",
         alt: "AlgoRadar platform practice queues and recommendation buckets",
-        title: "Platform practice queues",
+        title: "Recommendations overview",
       },
       {
-        src: "/assets/projects/algoradar/recommendations.png",
+        src: "/assets/projects/algoradar/recommendations-table.png",
         alt: "AlgoRadar recommendation table for confidence builder problems",
-        title: "Problem recommendations",
+        title: "Recommendation table",
       },
       {
         src: "/assets/projects/algoradar/solve-probability.png",
@@ -308,12 +308,12 @@ export const projects: Project[] = [
     blogSlug: "smart-hostel-ai-triage",
     screenshots: [
       {
-        src: "/assets/projects/smart-hostel/admin-dashboard.jpg",
+        src: "/assets/projects/smart-hostel/admin-dashboard.png",
         alt: "Smart Hostel admin dashboard showing grouped operational issues and risk filters",
         title: "Admin issue desk",
       },
       {
-        src: "/assets/projects/smart-hostel/student-submission.jpg",
+        src: "/assets/projects/smart-hostel/student-complaint-flow.png",
         alt: "Smart Hostel student intake screen for submitting hostel grievances",
         title: "Student complaint intake",
       },

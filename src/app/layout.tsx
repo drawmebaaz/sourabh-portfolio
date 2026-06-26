@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     siteName: "Sourabh Singh Rawat Portfolio",
     images: [
       {
-        url: "/assets/projects/algoradar/combined-profile.png",
+        url: "/assets/projects/algoradar/combined-analysis.png",
         width: 1200,
         height: 630,
         alt: "AlgoRadar project screenshot from Sourabh Singh Rawat portfolio",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     title: "Sourabh Singh Rawat | Developer Portfolio",
     description:
       "Projects, blogs, and engineering journey of Sourabh Singh Rawat.",
-    images: ["/assets/projects/algoradar/combined-profile.png"],
+    images: ["/assets/projects/algoradar/combined-analysis.png"],
   },
 };
 

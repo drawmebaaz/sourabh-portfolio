@@ -30,19 +30,5 @@
     "eslint-config-next": "16.2.9",
     "tailwindcss": "^4",
     "typescript": "^5"
-  },
-  "description": "A production-grade personal portfolio for Sourabh Singh Rawat, built with Next.js App Router, TypeScript, Tailwind CSS, Framer Motion, lucide-react, and a Markdown-powered blog system.",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/drawmebaaz/sourabh-portfolio.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/drawmebaaz/sourabh-portfolio/issues"
-  },
-  "homepage": "https://github.com/drawmebaaz/sourabh-portfolio#readme"
+  }
 }

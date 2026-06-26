@@ -33,7 +33,7 @@ Admins, on the other hand, do not want a long list of repeated complaints. They 
 
 So I changed the product direction from a simple complaint form to a complaint management platform.
 
-![Smart Hostel student complaint submission screen](/assets/projects/smart-hostel/student-submission.jpg)
+![Smart Hostel student complaint submission screen](/assets/projects/smart-hostel/student-complaint-flow.png)
 
 The final system supports:
 
@@ -177,7 +177,7 @@ If the system is confident enough, it attaches the complaint to an existing issu
 
 This made the admin dashboard cleaner and more realistic.
 
-![Smart Hostel admin dashboard with grouped issue queue](/assets/projects/smart-hostel/admin-dashboard.jpg)
+![Smart Hostel admin dashboard with grouped issue queue](/assets/projects/smart-hostel/admin-dashboard.png)
 
 ## 8. The embedding model could be unavailable
 

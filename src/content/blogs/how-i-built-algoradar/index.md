@@ -13,7 +13,7 @@ AlgoRadar started as a competitive-programming analytics idea and slowly became 
 
 This blog is a development log of the important problems I faced while building it, the mistakes that showed up, and the fixes that made the project more reliable.
 
-![AlgoRadar combined competitive programming profile dashboard](/assets/projects/algoradar/combined-profile.png)
+![AlgoRadar combined competitive programming profile dashboard](/assets/projects/algoradar/combined-analysis.png)
 
 ## 1. The Project Was Becoming Only a UI
 
@@ -132,9 +132,9 @@ Recommendations are now separated by platform and bucket:
 
 The recommender also avoids faking stretch problems. If the candidate pool does not contain true stretch-level problems, it is better to show fewer stretch items than to mislabel easy problems as stretch.
 
-![AlgoRadar platform practice queues](/assets/projects/algoradar/practice-queues.png)
+![AlgoRadar platform practice queues](/assets/projects/algoradar/recommendations-overview.png)
 
-![AlgoRadar recommendation table for confidence builder problems](/assets/projects/algoradar/recommendations.png)
+![AlgoRadar recommendation table for confidence builder problems](/assets/projects/algoradar/recommendations-table.png)
 
 ## 10. CodeChef and LeetCode Had Less Public Data
 

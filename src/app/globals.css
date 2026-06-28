@@ -12,15 +12,15 @@
   --accent: #e8960c;
   --accent-hover: #f2a51b;
   --button-text: #111111;
-  --cursor-blob-opacity: 0.9;
-  --cursor-blob-filter: blur(13px) saturate(1.28);
+  --cursor-blob-opacity: 0.88;
+  --cursor-blob-filter: blur(12px) saturate(1.22);
   --cursor-blob-blend: screen;
   --cursor-blob-shadow:
-    0 0 56px rgba(34, 211, 238, 0.2),
-    0 0 92px rgba(239, 68, 68, 0.15);
+    0 0 52px rgba(34, 211, 238, 0.18),
+    0 0 86px rgba(239, 68, 68, 0.12);
   --cursor-blob-bg:
-    radial-gradient(circle at 35% 29%, rgba(255, 255, 255, 0.52) 0%, rgba(147, 197, 253, 0.2) 13%, rgba(147, 197, 253, 0) 29%),
-    radial-gradient(circle, rgba(34, 211, 238, 0.62) 0%, rgba(37, 99, 235, 0.54) 31%, rgba(29, 78, 216, 0.34) 49%, rgba(248, 113, 113, 0.3) 70%, rgba(220, 38, 38, 0.12) 85%, rgba(220, 38, 38, 0) 100%);
+    radial-gradient(circle at 35% 30%, rgba(255, 255, 255, 0.48) 0%, rgba(125, 211, 252, 0.22) 13%, rgba(125, 211, 252, 0) 28%),
+    radial-gradient(circle, rgba(34, 211, 238, 0.58) 0%, rgba(59, 130, 246, 0.5) 30%, rgba(79, 70, 229, 0.34) 48%, rgba(244, 63, 94, 0.28) 70%, rgba(239, 68, 68, 0.1) 84%, rgba(239, 68, 68, 0) 100%);
 }
 
 :root.light {
@@ -35,15 +35,6 @@
   --accent: #a85f00;
   --accent-hover: #884c00;
   --button-text: #ffffff;
-  --cursor-blob-opacity: 0.68;
-  --cursor-blob-filter: blur(16px) saturate(1.08);
-  --cursor-blob-blend: normal;
-  --cursor-blob-shadow:
-    0 0 48px rgba(14, 165, 233, 0.12),
-    0 0 84px rgba(225, 29, 72, 0.08);
-  --cursor-blob-bg:
-    radial-gradient(circle at 35% 29%, rgba(255, 255, 255, 0.78) 0%, rgba(186, 230, 253, 0.32) 15%, rgba(186, 230, 253, 0) 32%),
-    radial-gradient(circle, rgba(56, 189, 248, 0.28) 0%, rgba(37, 99, 235, 0.22) 34%, rgba(30, 64, 175, 0.12) 52%, rgba(244, 63, 94, 0.14) 74%, rgba(185, 28, 28, 0.04) 88%, rgba(185, 28, 28, 0) 100%);
 }
 
 @theme inline {

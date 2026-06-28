@@ -35,9 +35,9 @@
   --accent: #a85f00;
   --accent-hover: #884c00;
   --button-text: #ffffff;
-  --cursor-blob-opacity: 0.82;
-  --cursor-blob-filter: blur(11px) saturate(1.34) contrast(1.08);
-  --cursor-blob-blend: multiply;
+  --cursor-blob-opacity: 0.78;
+  --cursor-blob-filter: blur(12px) saturate(1.28) contrast(1.04);
+  --cursor-blob-blend: normal;
   --cursor-blob-shadow:
     0 0 48px rgba(37, 99, 235, 0.16),
     0 0 82px rgba(220, 38, 38, 0.1);
@@ -184,7 +184,7 @@ textarea {
   position: fixed;
   left: 0;
   top: 0;
-  z-index: 80;
+  z-index: 9999;
   width: 22rem;
   height: 22rem;
   border: 0;

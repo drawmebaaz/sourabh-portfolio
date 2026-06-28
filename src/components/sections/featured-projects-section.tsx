@@ -20,8 +20,10 @@ export function FeaturedProjectsSection() {
         </div>
         <div className="mt-10 grid gap-5 md:grid-cols-2">
           {featuredProjects.map((project, index) => (
-            <Reveal key={project.slug} delay={index * 0.06}>
-              <ProjectCard project={project} featured={index === 0} />
+            <Reveal key={project.slug} className="h-full" delay={index * 0.06}>
+              <div data-cursor-blob className="h-full">
+                <ProjectCard project={project} featured={index === 0} />
+              </div>
             </Reveal>
           ))}
         </div>

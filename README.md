@@ -2,6 +2,10 @@
 
 A production-grade personal portfolio for Sourabh Singh Rawat, built with Next.js App Router, TypeScript, Tailwind CSS, Framer Motion, lucide-react, and a Markdown-powered blog system.
 
+## Live Site
+
+https://sourabh-portfolio-pqy9.vercel.app/
+
 ## Setup
 
 ```bash

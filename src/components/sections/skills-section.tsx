@@ -14,7 +14,7 @@ export function SkillsSection() {
         <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {skillGroups.map((group, index) => (
             <Reveal key={group.title} delay={index * 0.04}>
-              <div className="h-full rounded-[6px] border border-[color:var(--line)] bg-[color:var(--panel)] p-5 transition-colors duration-200 hover:border-[color:var(--line-strong)]">
+              <div data-cursor-blob className="h-full rounded-[6px] border border-[color:var(--line)] bg-[color:var(--panel)] p-5 transition-colors duration-200 hover:border-[color:var(--line-strong)]">
                 <h3 className="text-lg font-bold text-[color:var(--foreground)]">
                   {group.title}
                 </h3>

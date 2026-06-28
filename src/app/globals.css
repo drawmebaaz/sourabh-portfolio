@@ -164,3 +164,51 @@ textarea {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
+
+.home-cursor-blob {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 80;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 999px;
+  pointer-events: none;
+  opacity: 0;
+  background:
+    radial-gradient(circle, rgba(240, 237, 232, 0.58) 0%, rgba(232, 150, 12, 0.44) 26%, rgba(43, 162, 135, 0.28) 52%, rgba(43, 162, 135, 0.12) 68%, rgba(43, 162, 135, 0) 100%);
+  filter: blur(1.5px);
+  transform: translate3d(-200px, -200px, 0) translate(-50%, -50%);
+  transition:
+    opacity 140ms ease,
+    width 160ms ease,
+    height 160ms ease;
+  will-change: transform, opacity;
+}
+
+:root.light .home-cursor-blob {
+  background:
+    radial-gradient(circle, rgba(255, 255, 255, 0.7) 0%, rgba(177, 99, 0, 0.3) 28%, rgba(37, 130, 112, 0.2) 56%, rgba(37, 130, 112, 0.08) 70%, rgba(37, 130, 112, 0) 100%);
+}
+
+.home-cursor-blob--active {
+  opacity: 0.82;
+}
+
+@media (pointer: fine) {
+  [data-cursor-blob],
+  [data-cursor-blob] * {
+    cursor: none;
+  }
+}
+
+@media (pointer: coarse), (prefers-reduced-motion: reduce) {
+  .home-cursor-blob {
+    display: none;
+  }
+
+  [data-cursor-blob],
+  [data-cursor-blob] * {
+    cursor: auto;
+  }
+}

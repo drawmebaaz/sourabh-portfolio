@@ -21,9 +21,7 @@ export function BlogPreviewSection({ posts }: { posts: BlogPostMeta[] }) {
         <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {posts.slice(0, 6).map((post, index) => (
             <Reveal key={post.slug} className="h-full" delay={index * 0.05}>
-              <div data-cursor-blob className="h-full">
-                <BlogCard post={post} featured={post.featured && index === 0} />
-              </div>
+              <BlogCard post={post} featured={post.featured && index === 0} />
             </Reveal>
           ))}
         </div>

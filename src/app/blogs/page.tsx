@@ -17,7 +17,7 @@ export default function BlogsPage() {
       <PageHeader
         eyebrow="Blogs"
         title="Project build stories."
-        description="The longer notes behind AlgoRadar, StockBreakers, and Smart Hostel: what I tried, what broke, and how I fixed it."
+        description="The longer notes behind AlgoRadar and Smart Hostel: what I tried, what broke, and how I fixed it."
       />
       <section className="px-4 pb-20 sm:px-6 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-5 md:grid-cols-2 lg:grid-cols-3">

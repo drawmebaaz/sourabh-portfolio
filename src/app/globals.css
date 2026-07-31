@@ -12,15 +12,6 @@
   --accent: #e8960c;
   --accent-hover: #f2a51b;
   --button-text: #111111;
-  --cursor-blob-opacity: 0.88;
-  --cursor-blob-filter: blur(12px) saturate(1.22);
-  --cursor-blob-blend: screen;
-  --cursor-blob-shadow:
-    0 0 52px rgba(34, 211, 238, 0.18),
-    0 0 86px rgba(239, 68, 68, 0.12);
-  --cursor-blob-bg:
-    radial-gradient(circle at 35% 30%, rgba(255, 255, 255, 0.48) 0%, rgba(125, 211, 252, 0.22) 13%, rgba(125, 211, 252, 0) 28%),
-    radial-gradient(circle, rgba(34, 211, 238, 0.58) 0%, rgba(59, 130, 246, 0.5) 30%, rgba(79, 70, 229, 0.34) 48%, rgba(244, 63, 94, 0.28) 70%, rgba(239, 68, 68, 0.1) 84%, rgba(239, 68, 68, 0) 100%);
 }
 
 :root.light {
@@ -35,12 +26,6 @@
   --accent: #a85f00;
   --accent-hover: #884c00;
   --button-text: #ffffff;
-  --cursor-blob-opacity: 0.78;
-  --cursor-blob-filter: blur(12px) saturate(1.28) contrast(1.04);
-  --cursor-blob-blend: normal;
-  --cursor-blob-shadow:
-    0 0 48px rgba(37, 99, 235, 0.16),
-    0 0 82px rgba(220, 38, 38, 0.1);
 }
 
 @theme inline {
@@ -178,49 +163,4 @@ textarea {
 .focus-ring:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
-}
-
-.home-cursor-blob {
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 9999;
-  width: 22rem;
-  height: 22rem;
-  border: 0;
-  border-radius: 999px;
-  pointer-events: none;
-  opacity: 0;
-  background: var(--cursor-blob-bg);
-  box-shadow: var(--cursor-blob-shadow);
-  filter: var(--cursor-blob-filter);
-  mix-blend-mode: var(--cursor-blob-blend);
-  transform: translate3d(-200px, -200px, 0) translate(-50%, -50%);
-  transition:
-    opacity 140ms ease,
-    width 160ms ease,
-    height 160ms ease;
-  will-change: transform, opacity;
-}
-
-.home-cursor-blob--active {
-  opacity: var(--cursor-blob-opacity);
-}
-
-@media (pointer: fine) {
-  [data-cursor-blob],
-  [data-cursor-blob] * {
-    cursor: none;
-  }
-}
-
-@media (pointer: coarse), (prefers-reduced-motion: reduce) {
-  .home-cursor-blob {
-    display: none;
-  }
-
-  [data-cursor-blob],
-  [data-cursor-blob] * {
-    cursor: auto;
-  }
 }
